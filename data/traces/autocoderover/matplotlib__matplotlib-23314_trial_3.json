@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "matplotlib__matplotlib-23314",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 406.5,
+  "error_message": "Test failed"
+}

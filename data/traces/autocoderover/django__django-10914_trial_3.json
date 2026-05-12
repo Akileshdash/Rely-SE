@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "django__django-10914",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 193.0,
+  "error_message": "Test failed"
+}

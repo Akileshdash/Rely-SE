@@ -1,0 +1,13 @@
+{
+  "agent": "OpenHands",
+  "task_id": "issue_003",
+  "trial": 3,
+  "success": true,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 189.2,
+  "error_message": ""
+}

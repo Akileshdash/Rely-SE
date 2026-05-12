@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "issue_006",
+  "trial": 2,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": false,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 219.8,
+  "error_message": "ImportError: module not found after patch applied"
+}

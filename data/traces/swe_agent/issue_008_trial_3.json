@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "issue_008",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": false,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 216.4,
+  "error_message": ""
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "issue_015",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": false,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 275.0,
+  "error_message": ""
+}

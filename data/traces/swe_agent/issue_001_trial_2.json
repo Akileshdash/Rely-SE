@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "issue_001",
+  "trial": 2,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": true,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 80.5,
+  "error_message": "TimeoutError: agent exceeded 5-minute limit"
+}

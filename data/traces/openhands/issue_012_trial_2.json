@@ -1,0 +1,13 @@
+{
+  "agent": "OpenHands",
+  "task_id": "issue_012",
+  "trial": 2,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 106.6,
+  "error_message": "SyntaxError: invalid syntax in generated patch"
+}

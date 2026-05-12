@@ -1,0 +1,13 @@
+{
+  "agent": "Aider",
+  "task_id": "matplotlib__matplotlib-22835",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 260.8,
+  "error_message": "Test failed"
+}

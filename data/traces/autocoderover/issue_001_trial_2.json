@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "issue_001",
+  "trial": 2,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 236.8,
+  "error_message": "pytest: 3 failed, 2 passed \u2014 regression introduced"
+}

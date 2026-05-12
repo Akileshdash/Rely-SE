@@ -1,0 +1,13 @@
+{
+  "agent": "Claude-Code",
+  "task_id": "issue_006",
+  "trial": 2,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 279.3,
+  "error_message": "ImportError: module not found after patch applied"
+}

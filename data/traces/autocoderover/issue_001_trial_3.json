@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "issue_001",
+  "trial": 3,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": true,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 97.8,
+  "error_message": "ImportError: module not found after patch applied"
+}

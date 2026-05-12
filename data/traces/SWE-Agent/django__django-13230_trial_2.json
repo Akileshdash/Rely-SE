@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "django__django-13230",
+  "trial": 2,
+  "success": true,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 249.8,
+  "error_message": ""
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "Claude-Code",
+  "task_id": "issue_010",
+  "trial": 2,
+  "success": true,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 170.7,
+  "error_message": ""
+}

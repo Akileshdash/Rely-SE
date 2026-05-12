@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "matplotlib__matplotlib-22835",
+  "trial": 2,
+  "success": true,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": false,
+  "duration_seconds": 380.7,
+  "error_message": ""
+}

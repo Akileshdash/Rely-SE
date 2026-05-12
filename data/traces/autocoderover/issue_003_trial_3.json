@@ -1,0 +1,13 @@
+{
+  "agent": "AutoCodeRover",
+  "task_id": "issue_003",
+  "trial": 3,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": false,
+  "build_broken": false,
+  "regression": false,
+  "completed": false,
+  "duration_seconds": 249.6,
+  "error_message": "TimeoutError: agent exceeded 5-minute limit"
+}

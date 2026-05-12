@@ -1,0 +1,13 @@
+{
+  "agent": "SWE-Agent",
+  "task_id": "issue_002",
+  "trial": 3,
+  "success": false,
+  "intervention_required": true,
+  "commit_proposed": true,
+  "build_broken": true,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 40.5,
+  "error_message": "SyntaxError: invalid syntax in generated patch"
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "Aider",
+  "task_id": "django__django-11039",
+  "trial": 2,
+  "success": false,
+  "intervention_required": false,
+  "commit_proposed": true,
+  "build_broken": false,
+  "regression": false,
+  "completed": true,
+  "duration_seconds": 337.3,
+  "error_message": "Test failed"
+}
