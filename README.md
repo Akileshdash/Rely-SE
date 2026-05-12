@@ -95,14 +95,3 @@ rely-se/
 ```
 
 ---
-
-## Citation
-
-```bibtex
-@inproceedings{rely-se-ase-2026,
-  title={RELY-SE: A Reliability Measurement Tool for AI Coding Agents},
-  author={Anonymous},
-  booktitle={ASE 2026 Tools and Datasets Track},
-  year={2026}
-}
-```
