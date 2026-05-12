@@ -693,23 +693,7 @@ with tab4:
     **Total Runs**: 3 agents × 15 tasks × 3 trials = **135 execution traces**  
     
     ---
-    
-    ### Citation
-    
-    If you use RELY-SE, please cite:
-    
-    ```bibtex
-    @inproceedings{rely-se-ase-2026,
-        title={RELY-SE: A Dashboard Tool for Measuring Operational Reliability 
-               of AI Coding Agents},
-        author={Selvam, Akilesh and S, Shivadharshan and Chimalakonda, Sridhar},
-        booktitle={Proceedings of the 43rd IEEE/ACM International Conference 
-                   on Automated Software Engineering (ASE)},
-        pages={--},
-        year={2026},
-        organization={IEEE/ACM}
-    }
-    ```
+
     
     ---
     
