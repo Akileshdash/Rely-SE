@@ -1,0 +1,49 @@
+STATUS
+======
+
+Applying for:
+
+- Artifacts Available
+- Artifacts Reusable
+
+Justification for Artifacts Available:
+---------------------------------------
+The artifact is publicly archived on Zenodo with a persistent DOI:
+10.5281/zenodo.21172260. The archive and the linked public GitHub
+repository (https://github.com/rishalab/Rely-SE.git) contain the
+complete source code, the trace schema, 135 sample execution
+traces, documentation, and instructions to install and run the
+tool. The repository is openly licensed under the MIT License,
+ensuring continued public availability.
+
+Justification for Artifacts Reusable:
+---------------------------------------
+Beyond availability, we believe the artifact meets the bar for
+Reusable for the following reasons:
+
+1. Modular architecture: the pipeline is separated into
+   independent, single-responsibility modules (trace_processor.py,
+   metric_engine.py, dashboard.py, compute_metrics.py). Each can be
+   understood, tested, and modified independently of the others.
+
+2. Extensibility by design: adding support for a new coding agent
+   requires implementing a single parsing function in
+   trace_processor.py; adding a new reliability metric requires
+   adding one function to metric_engine.py. No changes to the
+   dashboard or data pipeline are required.
+
+3. Documentation: the README provides a Getting Started guide with
+   an under-5-minute smoke test requiring no API keys, followed by
+   step-by-step instructions to reproduce the paper's Table 2
+   results.
+
+4. Self-contained demonstration data: 135 execution traces are
+   bundled directly in the repository/archive, allowing full
+   exploration of all dashboard features (Comparative Overview,
+   Agent Deep-Dive, Failure Analysis) without requiring reviewers
+   to run live agent evaluations or hold API credentials.
+
+5. Open licensing (MIT) with no closed-source or proprietary
+   dependencies required for core functionality; live agent
+   execution against commercial LLMs is optional and clearly
+   separated from the core tool.
