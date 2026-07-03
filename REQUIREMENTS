@@ -1,0 +1,62 @@
+RELY-SE — Artifact Requirements
+================================
+
+Architecture
+------------
+x86_64 (tested). No GPU or specialized hardware required.
+Should also run on ARM64 (e.g., Apple Silicon) but this has not
+been explicitly verified by the authors.
+
+Operating System
+----------------
+- Ubuntu 22.04 LTS (primary test environment)
+- macOS 13+ (tested)
+- Windows via WSL2 should work but is untested.
+
+Software Dependencies
+----------------------
+- Python 3.11 or later
+- pip
+- All Python dependencies are pinned in requirements.txt at the
+  repository root and installed via:
+      pip install -r requirements.txt
+  Key dependencies: streamlit>=1.32.0, pandas>=2.0.0, numpy>=1.24.0,
+  plotly>=5.18.0, datasets>=2.14.0 (used by select_tasks.py to
+  fetch SWE-bench Lite task data).
+- No compiled/native dependencies; pure Python application.
+- No Docker or VM image is provided; the artifact runs directly
+  via Python and pip on any system meeting the above.
+
+Hardware
+--------
+- Minimum 8 GB RAM
+- Minimum ~500 MB free disk space (sample traces + dependencies)
+- No GPU required
+
+Network
+-------
+- Required only for:
+  (a) select_tasks.py, to download SWE-bench Lite task metadata via
+      the datasets package, and
+  (b) run_aider.py, to call the Anthropic API (or another LLM
+      provider configured for Aider).
+- Not required for the smoke test (generate_sample_traces.py +
+  dashboard.py), which runs entirely offline on synthetic data.
+
+External Services / API Keys
+------------------------------
+- An Anthropic API key (or equivalent LLM provider key supported
+  by Aider) is required only to reproduce live agent execution
+  (Option B in Quick Start / the paper's Aider results).
+  Not required to run the smoke test or explore the dashboard
+  with bundled sample data.
+- No rate-limited or reviewer-specific credentials are required;
+  reviewers may use their own API key or skip live execution and
+  rely on the 135 traces already bundled in the repository/archive.
+
+Estimated Time
+--------------
+- Installation: < 10 minutes
+- Smoke test: < 5 minutes
+- Full paper reproduction (live Aider run, 15 tasks x 3 trials):
+  1-2 hours, dependent on API latency
